@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "formations-dnd",
-    "slug": "formations-dnd",
+    "slug": "formations",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bb437759-fd15-4480-b0fb-8740a7327a8f"
+      }
+    },
+    "owner": "11ac11"
   }
 }
